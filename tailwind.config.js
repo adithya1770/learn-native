@@ -1,0 +1,77 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./app/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      spacing: {
+        '99': '24.7rem',
+        '100': '28rem',
+        '120': '30rem',
+        '122': '31rem',
+        '128': '32rem',
+        '130': '34rem',
+        '160': '40rem',
+        '162': '42rem',
+        '163': '43rem',
+        '168': '44rem',
+        '165': '43rem',
+        '170': '45rem',
+        '192': '48rem',
+        '194': '52rem',
+        '224': '56rem',
+        '256': '64rem',
+      },
+      width: {
+        '128': '32rem',
+        '160': '40rem',
+        '192': '48rem',
+        '224': '56rem',
+        '256': '64rem',
+      },
+      height: {
+        '128': '32rem',
+        '160': '40rem',
+        '170': '45rem',
+        '192': '48rem',
+        '224': '56rem',
+        '256': '64rem',
+      },
+      fontSize: {
+        '10xl': '10rem',
+        '11xl': '11rem',
+        '12xl': '20rem',
+        '15xl': '40rem',
+        '20xl': '56rem',
+        '22xl': '64rem',
+      },
+      colors: {
+        primary: "#161622",
+        secondary: {
+          DEFAULT: "#FF9C01",
+          100: "#FF9001",
+          200: "#FF8E01",
+        },
+        black: {
+          DEFAULT: "#000",
+          100: "#1E1E2D",
+          200: "#232533",
+        },
+        gray: {
+          100: "#CDCDE0",
+        },
+      },
+      fontFamily: {
+        pthin: ["Poppins-Thin", "sans-serif"],
+        pextralight: ["Poppins-ExtraLight", "sans-serif"],
+        plight: ["Poppins-Light", "sans-serif"],
+        pregular: ["Poppins-Regular", "sans-serif"],
+        pmedium: ["Poppins-Medium", "sans-serif"],
+        psemibold: ["Poppins-SemiBold", "sans-serif"],
+        pbold: ["Poppins-Bold", "sans-serif"],
+        pextrabold: ["Poppins-ExtraBold", "sans-serif"],
+        pblack: ["Poppins-Black", "sans-serif"],
+      },
+    },
+  },
+  plugins: [],
+};
